@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#fbfdfd">
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fbca04"
+    android:fillViewport="false">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#fdfdfc">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_keyboard_arrow_left_black_24dp"
+            android:id="@+id/imageView2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:id="@+id/imageView3"
+            android:layout_alignParentTop="true"
+            android:layout_alignEnd="@+id/tvr2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="General Rules"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="60dp"
+            android:id="@+id/tvr1"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. All the students enrolled in high school, undergraduate, postgraduate (excluding PhD.) program at any recognised institute (identity card will be checked) are eligible to participate."
+            android:textSize="16dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/tvr2"
+            android:layout_below="@+id/tvr1"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. A team can consist of a maximum of 4 members."
+            android:textSize="16dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/tvr3"
+            android:layout_below="@+id/tvr2"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Each team must declare a name for their team at the time of competition."
+            android:textSize="16dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/tvr4"
+            android:layout_below="@+id/tvr3"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.The machines you build will be first checked for size and safety. The machine should not cause electric power breakdowns."
+            android:textSize="16dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/tvr5"
+            android:layout_below="@+id/tvr4"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5.The machine must not contain any combustible, corrosive, or otherwise dangerous materials for safety reasons. No explosive compression or decompression, either internal or external is permitted."
+            android:textSize="16dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/tvr6"
+            android:layout_below="@+id/tvr5"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. Judges have the right to disqualify any machine whose working mechanism or game strategy is considered hazardous in any way."
+            android:textSize="16dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/tvr7"
+            android:layout_below="@+id/tvr6"
+            android:layout_centerHorizontal="true" />
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SCORING"
+            android:textSize="22dp"
+            android:textStyle="bold"
+
+
+            android:layout_marginTop="26dp"
+            android:id="@+id/tvr8"
+            android:layout_below="@+id/tvr7"
+            android:layout_alignStart="@+id/tvr9" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.For saving common peoples 20 points ."
+            android:layout_marginTop="5dp"
+            android:textSize="16dp"
+
+            android:id="@+id/tvr9"
+            android:layout_below="@+id/tvr8"
+            android:layout_alignStart="@+id/tvr10" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. For saving Courtier to 50 points."
+            android:layout_marginTop="5dp"
+            android:textSize="16dp"
+
+            android:id="@+id/tvr10"
+            android:layout_below="@+id/tvr9"
+            android:layout_alignStart="@+id/tvr11" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. For saving king 100 points"
+            android:layout_marginTop="5dp"
+            android:textSize="16dp"
+
+            android:id="@+id/tvr11"
+            android:layout_below="@+id/tvr10"
+            android:layout_alignStart="@+id/tvr12" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.If you take a retry -5 points"
+            android:textSize="16dp"
+            android:layout_marginTop="5dp"
+
+            android:id="@+id/tvr12"
+            android:layout_below="@+id/tvr11"
+            android:layout_alignStart="@+id/tvr13" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5.The machine must not contain any combustible, corrosive, or otherwise dangerous materials for safety reasons. No explosive compression or decompression, either internal or external is permitted."
+            android:textSize="16dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/tvr13"
+            android:layout_below="@+id/tvr12"
+            android:layout_alignStart="@+id/tvr7" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvr13">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STRUCTURE OF THE TOURNAMENT"
+            android:textSize="22dp"
+            android:textStyle="bold"
+
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvr14"
+
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.First round: Top 5 teams will qualify based on total points scored"
+            android:textSize="16dp"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/tvr15"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/tvr14"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.Final round: Top 5teams will compete"
+            android:textSize="16dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/tvr16"
+            android:layout_below="@+id/tvr15"
+            android:layout_alignStart="@+id/tvr15" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Arena and obstacles of final round will be different from first round"
+            android:textSize="16dp"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/tvr17"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/tvr16"
+            android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</ScrollView>
+
+</RelativeLayout>

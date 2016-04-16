@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#fbfdfd">
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f7faf5">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:id="@+id/imageView3"
+            android:layout_alignParentTop="true"
+            android:layout_alignEnd="@+id/syn1" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRANSPORTER"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:id="@+id/tvF1"
+        android:textColor="#222020"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageView3" />
+
+    <ImageView
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/tran"
+        android:layout_below="@+id/tvF1"
+        android:layout_centerHorizontal="true" />
+
+        <TextView
+
+            android:layout_marginRight="20dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:textSize="16dp"
+            android:text="Assume you are in a virtual gaming world. Virtual reality gaming is where a person can experience being in a three-dimensional environment and interact with that environment during a game. This is an essential part of the game."
+            android:textAlignment="inherit"
+            android:id="@+id/syn1"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+
+            android:layout_marginRight="20dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:textSize="16dp"
+            android:text="Think that there is sudden attack by foe army on a castle and here king, some courtier, some other people are trapped inside the castle. Our aim is to design a transporter robot which has to save all the trapped people from castle. The task is mammoth and the time is minimal. Here is our arena resembling the castle."
+            android:textAlignment="inherit"
+            android:id="@+id/syn2"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/syn1"
+            android:layout_centerHorizontal="true" />
+</RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
